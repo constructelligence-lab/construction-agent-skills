@@ -159,7 +159,8 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--force", action="store_true", help="overwrite skills that already exist")
     args = parser.parse_args(argv)
 
-    source: Path = args.source
+    # resolve, so a relative --source still works with the provenance path below
+    source: Path = args.source.expanduser().resolve()
     if not source.exists():
         sys.exit(f"FAIL: prompt source not found at {source}")
 
