@@ -1,0 +1,18 @@
+{
+  "name": "construction-skills",
+  "owner": {
+    "name": "Constructelligence",
+    "url": "https://constructelligence.co"
+  },
+  "metadata": {
+    "description": "Agent skills for construction: estimating, architecture, rendering, engineering, scheduling, site operations, safety, commercial and business development.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "construction",
+      "source": "./",
+      "description": "28 construction skills covering the work from bid qualification to notice letters, each with inputs to collect, instructions, expected output and guardrails."
+    }
+  ]
+}

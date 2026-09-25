@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Map of the 28 skills across 11 sections">
+  <title>Skill map</title>
+  <defs>
+    <style>
+      .t { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2328; }
+      .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .sec { font-size: 14.5px; font-weight: 700; }
+      .cnt { font-size: 11.5px; fill: #57606a; }
+      .item { font-size: 11.5px; fill: #1f2328; }
+      .blurb { font-size: 12px; fill: #6e7781; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="800" fill="#ffffff"/>
+  <text class="t" x="40" y="52" font-size="20" font-weight="700">Skill map: 28 skills across 11 sections</text>
+  <text class="t" x="40" y="76" font-size="13" fill="#57606a">Each skill is a folder with a SKILL.md. Copy the folders you want into your agent's skills directory, or install the whole set as a plugin.</text>
+  <line x1="40" y1="94" x2="1160" y2="94" stroke="#d8dee4"/>
+
+  <!-- row 1 -->
+  <g>
+    <rect x="40" y="118" width="350" height="140" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text class="t sec" x="60" y="146">Preconstruction</text>
+    <text class="t cnt" x="370" y="146" text-anchor="end">3 skills</text>
+    <text class="t m item" x="60" y="172">bid-go-no-go</text>
+    <text class="t m item" x="60" y="192">constructability-risk-review</text>
+    <text class="t m item" x="60" y="212">programme-and-sequencing-options</text>
+    <text class="t blurb" x="60" y="238">Risk before you price the work</text>
+  </g>
+  <g>
+    <rect x="425" y="118" width="350" height="140" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text class="t sec" x="445" y="146">Estimating and takeoff</text>
+    <text class="t cnt" x="755" y="146" text-anchor="end">4 skills</text>
+    <text class="t m item" x="445" y="172">unit-rate-sanity-check</text>
+    <text class="t m item" x="445" y="192">takeoff-review-checklist</text>
+    <text class="t m item" x="445" y="212">change-order-pricing-narrative</text>
+    <text class="t m item" x="445" y="232">productivity-assumption-stress-test</text>
+  </g>
+  <g>
+    <rect x="810" y="118" width="350" height="140" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text class="t sec" x="830" y="146">Architecture and design</text>
+    <text class="t cnt" x="1140" y="146" text-anchor="end">4 skills</text>
+    <text class="t m item" x="830" y="172">design-brief-from-conversation</text>
+    <text class="t m item" x="830" y="192">specification-section-draft</text>
+    <text class="t m item" x="830" y="212">code-and-accessibility-checklist</text>
+    <text class="t m item" x="830" y="232">design-review-agenda</text>
+  </g>
+
+  <!-- row 2 -->
+  <g>
+    <rect x="40" y="270" width="350" height="140" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text class="t sec" x="60" y="298">Visualisation and rendering</text>
+    <text class="t cnt" x="370" y="298" text-anchor="end">3 skills</text>
+    <text class="t m item" x="60" y="324">photorealistic-exterior-render</text>
+    <text class="t m item" x="60" y="344">interior-render-iteration</text>
+    <text class="t m item" x="60" y="364">render-critique-before-client</text>
+    <text class="t blurb" x="60" y="390">Images, iteration and critique</text>
+  </g>
+  <g>
+    <rect x="425" y="270" width="350" height="140" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text class="t sec" x="445" y="298">Engineering</text>
+    <text class="t cnt" x="755" y="298" text-anchor="end">2 skills</text>
+    <text class="t m item" x="445" y="324">load-path-sanity-check</text>
+    <text class="t m item" x="445" y="344">mep-coordination-clash-triage</text>
+    <text class="t blurb" x="445" y="376">Sense checks, never calculations</text>
+  </g>
+  <g>
+    <rect x="810" y="270" width="350" height="140" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text class="t sec" x="830" y="298">Scheduling and planning</text>
+    <text class="t cnt" x="1140" y="298" text-anchor="end">2 skills</text>
+    <text class="t m item" x="830" y="324">schedule-narrative-for-owner</text>
+    <text class="t m item" x="830" y="344">lookahead-constraint-sweep</text>
+    <text class="t blurb" x="830" y="376">Records a delay claim is built from</text>
+  </g>
+
+  <!-- row 3 -->
+  <g>
+    <rect x="40" y="422" width="350" height="140" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text class="t sec" x="60" y="450">Site and field operations</text>
+    <text class="t cnt" x="370" y="450" text-anchor="end">2 skills</text>
+    <text class="t m item" x="60" y="476">daily-report-from-notes</text>
+    <text class="t m item" x="60" y="496">rfi-drafting</text>
+    <text class="t blurb" x="60" y="528">Messy notes into real records</text>
+  </g>
+  <g>
+    <rect x="425" y="422" width="350" height="140" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text class="t sec" x="445" y="450">Safety and compliance</text>
+    <text class="t cnt" x="755" y="450" text-anchor="end">2 skills</text>
+    <text class="t m item" x="445" y="476">jsha-from-task-description</text>
+    <text class="t m item" x="445" y="496">toolbox-talk-from-near-miss</text>
+    <text class="t blurb" x="445" y="528">Written with a competent person</text>
+  </g>
+  <g>
+    <rect x="810" y="422" width="350" height="140" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text class="t sec" x="830" y="450">Contracts and commercial</text>
+    <text class="t cnt" x="1140" y="450" text-anchor="end">2 skills</text>
+    <text class="t m item" x="830" y="476">contract-risk-review</text>
+    <text class="t m item" x="830" y="496">notice-letter-draft</text>
+    <text class="t blurb" x="830" y="528">Drafted here, decided with your lawyer</text>
+  </g>
+
+  <!-- row 4 -->
+  <g>
+    <rect x="40" y="574" width="350" height="140" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text class="t sec" x="60" y="602">Business development</text>
+    <text class="t cnt" x="370" y="602" text-anchor="end">2 skills</text>
+    <text class="t m item" x="60" y="628">case-study-from-facts</text>
+    <text class="t m item" x="60" y="648">proposal-tailoring</text>
+    <text class="t blurb" x="60" y="680">The writing that wins the next job</text>
+  </g>
+  <g>
+    <rect x="425" y="574" width="350" height="140" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+    <text class="t sec" x="445" y="602">Automation and analysis</text>
+    <text class="t cnt" x="755" y="602" text-anchor="end">2 skills</text>
+    <text class="t m item" x="445" y="628">ifc-data-extraction-script</text>
+    <text class="t m item" x="445" y="648">job-cost-analysis-in-python</text>
+    <text class="t blurb" x="445" y="680">For people who would rather script it</text>
+  </g>
+  <g>
+    <rect x="810" y="574" width="350" height="140" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-dasharray="5 4"/>
+    <text class="t sec" x="830" y="602" fill="#57606a">Everything is CC BY 4.0</text>
+    <text class="t blurb" x="830" y="628">Adapt the skills to your own trades, regions and</text>
+    <text class="t blurb" x="830" y="646">contract forms. Credit Constructelligence and link</text>
+    <text class="t blurb" x="830" y="664">to the licence. Every skill produces a draft that a</text>
+    <text class="t blurb" x="830" y="682">named person reviews before it leaves your company.</text>
+  </g>
+
+  <text class="t" x="40" y="760" font-size="12" fill="#6e7781">constructelligence-lab / construction-agent-skills</text>
+  <text class="t" x="40" y="780" font-size="12" fill="#6e7781">constructelligence.co</text>
+</svg>

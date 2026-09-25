@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="How a construction agent skill is selected and used">
+  <title>How a skill gets used</title>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#57606a"/>
+    </marker>
+    <style>
+      .card { fill: #f6f8fa; stroke: #d0d7de; stroke-width: 1.5; rx: 10; }
+      .accent { fill: #1f6feb; }
+      .t { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2328; }
+      .m { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+      .step { font-size: 15px; font-weight: 600; }
+      .body { font-size: 13px; fill: #57606a; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12.5px; fill: #1f2328; }
+      .small { font-size: 12px; fill: #6e7781; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="400" fill="#ffffff"/>
+
+  <text class="t" x="40" y="52" font-size="20" font-weight="700">How a skill gets used</text>
+  <text class="t body" x="40" y="76">One skill is a folder with a SKILL.md. The agent reads only the name and description until a skill matches.</text>
+  <line x1="40" y1="94" x2="1160" y2="94" stroke="#d8dee4" stroke-width="1"/>
+
+  <!-- step 1 -->
+  <rect class="card" x="40" y="140" width="196" height="132"/>
+  <rect class="accent" x="40" y="140" width="196" height="4"/>
+  <text class="t step" x="60" y="176">1. You ask</text>
+  <text class="t body" x="60" y="202">"Should we bid</text>
+  <text class="t body" x="60" y="220">this job? Here are</text>
+  <text class="t body" x="60" y="238">our numbers."</text>
+
+  <!-- step 2 -->
+  <rect class="card" x="288" y="140" width="196" height="132"/>
+  <rect class="accent" x="288" y="140" width="196" height="4"/>
+  <text class="t step" x="308" y="176">2. Agent matches</text>
+  <text class="t body" x="308" y="202">Name and description</text>
+  <text class="t body" x="308" y="220">are the only thing</text>
+  <text class="t body" x="308" y="238">loaded up front.</text>
+
+  <!-- step 3 -->
+  <rect class="card" x="536" y="140" width="196" height="132"/>
+  <rect class="accent" x="536" y="140" width="196" height="4"/>
+  <text class="t step" x="556" y="176">3. Skill loads</text>
+  <text class="t body" x="556" y="202">Instructions, inputs</text>
+  <text class="t body" x="556" y="220">to collect and</text>
+  <text class="t body" x="556" y="238">guardrails.</text>
+
+  <!-- step 4 -->
+  <rect class="card" x="784" y="140" width="196" height="132"/>
+  <rect class="accent" x="784" y="140" width="196" height="4"/>
+  <text class="t step" x="804" y="176">4. Agent works</text>
+  <text class="t body" x="804" y="202">With your files,</text>
+  <text class="t body" x="804" y="220">your exports and</text>
+  <text class="t body" x="804" y="238">its own reasoning.</text>
+
+  <!-- step 5 -->
+  <rect class="card" x="1000" y="140" width="160" height="132"/>
+  <rect x="1000" y="140" width="160" height="4" fill="#2ea043"/>
+  <text class="t step" x="1020" y="176">5. Draft</text>
+  <text class="t body" x="1020" y="202">A named person</text>
+  <text class="t body" x="1020" y="220">reviews before it</text>
+  <text class="t body" x="1020" y="238">leaves the company.</text>
+
+  <!-- arrows -->
+  <line x1="236" y1="206" x2="282" y2="206" stroke="#57606a" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="484" y1="206" x2="530" y2="206" stroke="#57606a" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="732" y1="206" x2="778" y2="206" stroke="#57606a" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="980" y1="206" x2="994" y2="206" stroke="#57606a" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- footer -->
+  <rect x="40" y="306" width="1120" height="52" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text class="t" x="60" y="330" font-size="13" font-weight="600">Why the description matters most</text>
+  <text class="t body" x="60" y="348">If the description does not say what the skill does and when to trigger it, the skill is never loaded — however good the instructions inside it are.</text>
+
+  <text class="t small" x="40" y="384">constructelligence-lab / construction-agent-skills</text>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" role="img" aria-label="Anatomy of a SKILL.md file">
+  <title>Anatomy of a skill</title>
+  <defs>
+    <style>
+      .t { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2328; }
+      .m { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+      .code { font-size: 13px; fill: #1f2328; }
+      .dim { font-size: 13px; fill: #6e7781; }
+      .key { font-size: 13px; fill: #1a7f37; font-weight: 600; }
+      .h { font-size: 13px; font-weight: 600; fill: #0969da; }
+      .ct { font-size: 14px; font-weight: 700; }
+      .cb { font-size: 12.5px; fill: #57606a; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="640" fill="#ffffff"/>
+  <text class="t" x="40" y="52" font-size="20" font-weight="700">Anatomy of a skill</text>
+  <text class="t" x="40" y="76" font-size="13" fill="#57606a">Every skill in this library has the same shape, so an agent can rely on it and you can edit any of them in the same way.</text>
+  <line x1="40" y1="94" x2="1160" y2="94" stroke="#d8dee4"/>
+
+  <!-- file panel -->
+  <rect x="40" y="118" width="560" height="470" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <line x1="40" y1="152" x2="600" y2="152" stroke="#d8dee4"/>
+  <circle cx="62" cy="135" r="5" fill="#d0d7de"/><circle cx="80" cy="135" r="5" fill="#d0d7de"/><circle cx="98" cy="135" r="5" fill="#d0d7de"/>
+  <text class="t m" x="500" y="140" font-size="12" fill="#6e7781">SKILL.md</text>
+
+  <text class="t m code dim" x="64" y="182">---</text>
+  <text class="t m code" x="64" y="206"><tspan class="key">name:</tspan> bid-go-no-go</text>
+  <text class="t m code" x="64" y="230"><tspan class="key">description:</tspan> Bid qualification for construction</text>
+  <text class="t m code" x="64" y="250">  work, covering bidding, risk ...</text>
+  <text class="t m code" x="64" y="274"><tspan class="key">license:</tspan> CC BY 4.0</text>
+  <text class="t m code" x="64" y="298"><tspan class="key">section:</tspan> Preconstruction</text>
+  <text class="t m code dim" x="64" y="322">---</text>
+
+  <text class="t m h" x="64" y="356"># Bid qualification: go or no-go</text>
+  <text class="t m h" x="64" y="386">## Inputs to collect</text>
+  <text class="t m code dim" x="64" y="408">- {{annual_revenue}} - {{backlog_months}}</text>
+  <text class="t m h" x="64" y="438">## Instructions</text>
+  <text class="t m code dim" x="64" y="460">the procedure, in order</text>
+  <text class="t m h" x="64" y="490">## What good output looks like</text>
+  <text class="t m h" x="64" y="520">## Follow-ups</text>
+  <text class="t m h" x="64" y="550">## Guardrails</text>
+
+  <!-- callouts -->
+  <line x1="600" y1="216" x2="668" y2="176" stroke="#8c959f"/>
+  <rect x="668" y="126" width="492" height="104" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+  <text class="t ct" x="690" y="154">1. Front-matter decides everything</text>
+  <text class="t cb" x="690" y="178">name must match the folder name. description is the only</text>
+  <text class="t cb" x="690" y="196">text loaded before a skill matches, so it carries the trigger</text>
+  <text class="t cb" x="690" y="214">words that decide whether your skill is ever used.</text>
+
+  <line x1="600" y1="398" x2="668" y2="288" stroke="#8c959f"/>
+  <rect x="668" y="238" width="492" height="104" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+  <text class="t ct" x="690" y="266">2. Inputs to collect</text>
+  <text class="t cb" x="690" y="290">The variables the agent must ask for. This is what stops a</text>
+  <text class="t cb" x="690" y="308">model inventing a project size, a rate or a clause reference</text>
+  <text class="t cb" x="690" y="326">to fill a gap in your brief.</text>
+
+  <line x1="600" y1="452" x2="668" y2="400" stroke="#8c959f"/>
+  <rect x="668" y="350" width="492" height="104" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+  <text class="t ct" x="690" y="378">3. Instructions</text>
+  <text class="t cb" x="690" y="402">The procedure, in order, including the output format. Same</text>
+  <text class="t cb" x="690" y="420">prompt you would paste by hand, wrapped so the agent</text>
+  <text class="t cb" x="690" y="438">runs it consistently every time.</text>
+
+  <line x1="600" y1="536" x2="668" y2="512" stroke="#8c959f"/>
+  <rect x="668" y="462" width="492" height="126" rx="8" fill="#ffffff" stroke="#d0d7de"/>
+  <text class="t ct" x="690" y="490">4. Follow-ups and guardrails</text>
+  <text class="t cb" x="690" y="514">Follow-ups sharpen a first answer: ask for the rows, the</text>
+  <text class="t cb" x="690" y="532">counter-case, the thing you have not considered. Guardrails</text>
+  <text class="t cb" x="690" y="550">say what never gets pasted in, what a person verifies, and</text>
+  <text class="t cb" x="690" y="568">which professional signs the result off.</text>
+
+  <text class="t" x="40" y="620" font-size="12" fill="#6e7781">constructelligence-lab / construction-agent-skills</text>
+</svg>

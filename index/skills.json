@@ -1,0 +1,373 @@
+{
+  "generated_on": "2026-09-25",
+  "count": 28,
+  "sections": 11,
+  "skills": [
+    {
+      "name": "bid-go-no-go",
+      "description": "Bid qualification: go or no-go for construction and design work, covering bidding, risk, preconstruction. An invitation to bid lands and you need a defensible recommendation before you spend a week estimating it. Use when the user asks for help with bid qualification: go or no-go, or is working on bidding, risk, preconstruction in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Preconstruction",
+      "tags": [
+        "bidding",
+        "risk",
+        "preconstruction"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/bid-go-no-go/SKILL.md"
+    },
+    {
+      "name": "case-study-from-facts",
+      "description": "Project case study from the facts for construction and design work, covering marketing, case-study, bd. You have finished a job worth writing about and need a case study for the website, a proposal or a prequalification pack \u2014 without inventing anything and without breaching confidentiality. Use when the user asks for help with project case study from the facts, or is working on marketing, case-study, bd in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Business development",
+      "tags": [
+        "marketing",
+        "case-study",
+        "bd"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/case-study-from-facts/SKILL.md"
+    },
+    {
+      "name": "change-order-pricing-narrative",
+      "description": "Change order pricing narrative for construction and design work, covering change-orders, commercial, pricing. The numbers are agreed internally and now need to be presented so they are hard to argue with \u2014 typically for a priced change that a client or a subcontractor will scrutinise. Use when the user asks for help with change order pricing narrative, or is working on change-orders, commercial, pricing in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Estimating and takeoff",
+      "tags": [
+        "change-orders",
+        "commercial",
+        "pricing"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/change-order-pricing-narrative/SKILL.md"
+    },
+    {
+      "name": "code-and-accessibility-checklist",
+      "description": "Code and accessibility checklist for a design review for construction and design work, covering code, accessibility, compliance. You want a structured set of compliance questions to work through for a design, recognising that the model does not know your local code and must not be treated as knowing it. Use when the user asks for help with code and accessibility checklist for a design review, or is working on code, accessibility, compliance in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Architecture and design",
+      "tags": [
+        "code",
+        "accessibility",
+        "compliance"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/code-and-accessibility-checklist/SKILL.md"
+    },
+    {
+      "name": "constructability-risk-review",
+      "description": "Constructability risk review of a drawing set for construction and design work, covering preconstruction, drawings, risk. You are pricing or planning a job and want a structured list of buildability questions before the bid goes in. Use when the user asks for help with constructability risk review of a drawing set, or is working on preconstruction, drawings, risk in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Preconstruction",
+      "tags": [
+        "preconstruction",
+        "drawings",
+        "risk"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/constructability-risk-review/SKILL.md"
+    },
+    {
+      "name": "contract-risk-review",
+      "description": "Contract risk review preparation for construction and design work, covering contracts, risk, commercial. A contract or subcontract is on your desk and you want the risk topics organised before it goes to your lawyer, so the expensive hours are spent on judgement rather than on reading out loud. Use when the user asks for help with contract risk review preparation, or is working on contracts, risk, commercial in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Contracts and commercial",
+      "tags": [
+        "contracts",
+        "risk",
+        "commercial"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/contract-risk-review/SKILL.md"
+    },
+    {
+      "name": "daily-report-from-notes",
+      "description": "Daily report from messy field notes for construction and design work, covering field, records, daily-report. The day's notes are a mix of texts, voice-note reminders and scribbles, and the report needs to be written before you go home \u2014 with the facts intact and nothing invented. Use when the user asks for help with daily report from messy field notes, or is working on field, records, daily-report in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Site and field operations",
+      "tags": [
+        "field",
+        "records",
+        "daily-report"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/daily-report-from-notes/SKILL.md"
+    },
+    {
+      "name": "design-brief-from-conversation",
+      "description": "Design brief from a client conversation for construction and design work, covering brief, client, architecture. You have come out of a client meeting with scattered notes and need a written brief that the client can confirm or correct before design work starts. Use when the user asks for help with design brief from a client conversation, or is working on brief, client, architecture in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Architecture and design",
+      "tags": [
+        "brief",
+        "client",
+        "architecture"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/design-brief-from-conversation/SKILL.md"
+    },
+    {
+      "name": "design-review-agenda",
+      "description": "Design review agenda that finds problems for construction and design work, covering coordination, meetings, design. You are running a design or coordination review and want an agenda that surfaces conflicts rather than walking through the drawings in order. Use when the user asks for help with design review agenda that finds problems, or is working on coordination, meetings, design in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Architecture and design",
+      "tags": [
+        "coordination",
+        "meetings",
+        "design"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/design-review-agenda/SKILL.md"
+    },
+    {
+      "name": "ifc-data-extraction-script",
+      "description": "IFC data extraction script for construction and design work, covering ifc, bim, python, automation. You need a repeatable way to pull data out of IFC models \u2014 quantities, spaces, properties \u2014 instead of clicking through them, and you would rather review code than write the boilerplate. Use when the user asks for help with ifc data extraction script, or is working on ifc, bim, python, automation in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Automation and analysis",
+      "tags": [
+        "ifc",
+        "bim",
+        "python",
+        "automation"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/ifc-data-extraction-script/SKILL.md"
+    },
+    {
+      "name": "interior-render-iteration",
+      "description": "Interior render: iteration prompt for construction and design work, covering rendering, interior, iteration. The first interior image is close but wrong \u2014 the light, the proportions or the materials \u2014 and you want to change one thing at a time rather than regenerate from scratch. Use when the user asks for help with interior render: iteration prompt, or is working on rendering, interior, iteration in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Visualisation and rendering",
+      "tags": [
+        "rendering",
+        "interior",
+        "iteration"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/interior-render-iteration/SKILL.md"
+    },
+    {
+      "name": "job-cost-analysis-in-python",
+      "description": "Job cost analysis in Python or pandas for construction and design work, covering job-cost, python, analysis, automation. Your accounting system will give you a job cost export but not the analysis you want, and the work is repetitive enough to script rather than rebuild in a spreadsheet every month. Use when the user asks for help with job cost analysis in python or pandas, or is working on job-cost, python, analysis, automation in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Automation and analysis",
+      "tags": [
+        "job-cost",
+        "python",
+        "analysis",
+        "automation"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/job-cost-analysis-in-python/SKILL.md"
+    },
+    {
+      "name": "jsha-from-task-description",
+      "description": "Job safety analysis from a task description for construction and design work, covering safety, jsha, field. You are preparing a task-specific safety analysis and want a structured first draft to edit with the crew, rather than starting from a template that says nothing about this job. Use when the user asks for help with job safety analysis from a task description, or is working on safety, jsha, field in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Safety and compliance",
+      "tags": [
+        "safety",
+        "jsha",
+        "field"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/jsha-from-task-description/SKILL.md"
+    },
+    {
+      "name": "load-path-sanity-check",
+      "description": "Structural load path sanity check for construction and design work, covering structure, review, engineering. You are preparing for a coordination or value-engineering discussion and want the obvious load path and stability questions on the table. Use when the user asks for help with structural load path sanity check, or is working on structure, review, engineering in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Engineering",
+      "tags": [
+        "structure",
+        "review",
+        "engineering"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/load-path-sanity-check/SKILL.md"
+    },
+    {
+      "name": "lookahead-constraint-sweep",
+      "description": "Three-week lookahead constraint sweep for construction and design work, covering lookahead, field, planning. You are building the next three-week lookahead and want to remove constraints before they stop work, rather than reporting them after the fact. Use when the user asks for help with three-week lookahead constraint sweep, or is working on lookahead, field, planning in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Scheduling and planning",
+      "tags": [
+        "lookahead",
+        "field",
+        "planning"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/lookahead-constraint-sweep/SKILL.md"
+    },
+    {
+      "name": "mep-coordination-clash-triage",
+      "description": "MEP coordination and clash triage for construction and design work, covering mep, coordination, bim. You have a clash report or a coordination problem list and need to decide which clashes matter, in what order to resolve them, and who should move. Use when the user asks for help with mep coordination and clash triage, or is working on mep, coordination, bim in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Engineering",
+      "tags": [
+        "mep",
+        "coordination",
+        "bim"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/mep-coordination-clash-triage/SKILL.md"
+    },
+    {
+      "name": "notice-letter-draft",
+      "description": "Notice letter draft for construction and design work, covering notices, claims, correspondence. An event has occurred and the contract requires written notice. Use when the user asks for help with notice letter draft, or is working on notices, claims, correspondence in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Contracts and commercial",
+      "tags": [
+        "notices",
+        "claims",
+        "correspondence"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/notice-letter-draft/SKILL.md"
+    },
+    {
+      "name": "photorealistic-exterior-render",
+      "description": "Photorealistic exterior render prompt for construction and design work, covering rendering, visualisation, marketing. You need a client-ready exterior visual quickly, before the model is advanced enough for a proper render, or to explore a fa\u00e7ade direction. Use when the user asks for help with photorealistic exterior render prompt, or is working on rendering, visualisation, marketing in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Visualisation and rendering",
+      "tags": [
+        "rendering",
+        "visualisation",
+        "marketing"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/photorealistic-exterior-render/SKILL.md"
+    },
+    {
+      "name": "productivity-assumption-stress-test",
+      "description": "Productivity assumption stress test for construction and design work, covering productivity, labour, risk. An estimate depends on production rates you have assumed rather than measured, and you want to know how much of the margin is riding on them. Use when the user asks for help with productivity assumption stress test, or is working on productivity, labour, risk in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Estimating and takeoff",
+      "tags": [
+        "productivity",
+        "labour",
+        "risk"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/productivity-assumption-stress-test/SKILL.md"
+    },
+    {
+      "name": "programme-and-sequencing-options",
+      "description": "Programme and sequencing options for construction and design work, covering preconstruction, programme, sequencing. You have a target completion date and a rough scope, and you want the plausible sequencing options on the table before you build a CPM schedule. Use when the user asks for help with programme and sequencing options, or is working on preconstruction, programme, sequencing in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Preconstruction",
+      "tags": [
+        "preconstruction",
+        "programme",
+        "sequencing"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/programme-and-sequencing-options/SKILL.md"
+    },
+    {
+      "name": "proposal-tailoring",
+      "description": "Tailoring a proposal to the client's actual concerns for construction and design work, covering proposals, bidding, bd. You have a standard proposal structure and a specific client, and you want the document to answer what *they* are worried about instead of repeating your company history. Use when the user asks for help with tailoring a proposal to the client's actual concerns, or is working on proposals, bidding, bd in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Business development",
+      "tags": [
+        "proposals",
+        "bidding",
+        "bd"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/proposal-tailoring/SKILL.md"
+    },
+    {
+      "name": "render-critique-before-client",
+      "description": "Render critique before it goes to the client for construction and design work, covering rendering, review, presentation. You are about to send a visual to a client and want a hard critique first \u2014 one that finds the things an architect, a planner or a contractor would spot immediately. Use when the user asks for help with render critique before it goes to the client, or is working on rendering, review, presentation in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Visualisation and rendering",
+      "tags": [
+        "rendering",
+        "review",
+        "presentation"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/render-critique-before-client/SKILL.md"
+    },
+    {
+      "name": "rfi-drafting",
+      "description": "RFI drafting that gets answered for construction and design work, covering rfi, documents, coordination. Something on site does not match the drawings and you need an RFI that is clear enough to be answered first time, with the schedule impact stated. Use when the user asks for help with rfi drafting that gets answered, or is working on rfi, documents, coordination in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Site and field operations",
+      "tags": [
+        "rfi",
+        "documents",
+        "coordination"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/rfi-drafting/SKILL.md"
+    },
+    {
+      "name": "schedule-narrative-for-owner",
+      "description": "Schedule narrative for the owner for construction and design work, covering schedule, reporting, communication. The monthly schedule update is done and needs the narrative section: what moved, why, what you are doing about it, and what you need \u2014 without excuses and without jargon. Use when the user asks for help with schedule narrative for the owner, or is working on schedule, reporting, communication in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Scheduling and planning",
+      "tags": [
+        "schedule",
+        "reporting",
+        "communication"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/schedule-narrative-for-owner/SKILL.md"
+    },
+    {
+      "name": "specification-section-draft",
+      "description": "Specification section draft for construction and design work, covering specification, documentation, quality. You need a first draft of a specification section structure so you are editing rather than staring at an empty document \u2014 with the understanding that the technical content is yours, not the model's. Use when the user asks for help with specification section draft, or is working on specification, documentation, quality in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Architecture and design",
+      "tags": [
+        "specification",
+        "documentation",
+        "quality"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/specification-section-draft/SKILL.md"
+    },
+    {
+      "name": "takeoff-review-checklist",
+      "description": "Takeoff review checklist for construction and design work, covering takeoff, quantities, quality. A takeoff has been produced \u2014 by a person, by software, or by one of the tools in our [open source construction tools](https://github.com/constructelligence-lab/open-source-construction-tools) list \u2014 and it needs a review that is actually systematic. Use when the user asks for help with takeoff review checklist, or is working on takeoff, quantities, quality in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Estimating and takeoff",
+      "tags": [
+        "takeoff",
+        "quantities",
+        "quality"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/takeoff-review-checklist/SKILL.md"
+    },
+    {
+      "name": "toolbox-talk-from-near-miss",
+      "description": "Toolbox talk from a real near miss for construction and design work, covering safety, training, briefing. Something nearly went wrong on this site and you want a five-minute talk that lands with the crew, rather than a generic briefing they have heard ten times. Use when the user asks for help with toolbox talk from a real near miss, or is working on safety, training, briefing in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Safety and compliance",
+      "tags": [
+        "safety",
+        "training",
+        "briefing"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/toolbox-talk-from-near-miss/SKILL.md"
+    },
+    {
+      "name": "unit-rate-sanity-check",
+      "description": "Unit rate sanity check for construction and design work, covering estimating, pricing, review. An estimate is nearly finished and you want a second pair of eyes on whether the rates and quantities hang together \u2014 before the bid goes in, not after. Use when the user asks for help with unit rate sanity check, or is working on estimating, pricing, review in a construction, engineering or design context. Produces a reviewable draft, never a final answer.",
+      "section": "Estimating and takeoff",
+      "tags": [
+        "estimating",
+        "pricing",
+        "review"
+      ],
+      "license": "CC BY 4.0",
+      "updated": "2026-09-24",
+      "path": "skills/unit-rate-sanity-check/SKILL.md"
+    }
+  ]
+}
