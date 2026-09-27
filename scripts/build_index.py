@@ -6,7 +6,6 @@ from __future__ import annotations
 import json
 import re
 import sys
-from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -67,18 +66,33 @@ def parse_front_matter(text: str) -> dict:
     return data
 
 
+def title_and_summary(text: str) -> tuple[str, str]:
+    """The H1 and the first sentence of the paragraph under it: short enough for a table row."""
+    body = FRONT_MATTER.sub("", text, count=1)
+    title = next((line[2:].strip() for line in body.splitlines() if line.startswith("# ")), "")
+    after = body.split(f"# {title}", 1)[-1].strip() if title else body.strip()
+    paragraph = " ".join(after.split("\n\n", 1)[0].split())
+    sentence = re.split(r"(?<=[.!?])\s+(?=[A-Z])", paragraph, maxsplit=1)[0]
+    return title, sentence
+
+
 def load_skills() -> list[dict]:
     entries = []
     for path in sorted(SKILLS.glob("*/SKILL.md")):
-        meta = parse_front_matter(path.read_text(encoding="utf-8"))
+        text = path.read_text(encoding="utf-8")
+        meta = parse_front_matter(text)
+        title, summary = title_and_summary(text)
         entries.append(
             {
                 "name": str(meta.get("name", path.parent.name)),
+                "title": title,
+                "summary": summary,
                 "description": str(meta.get("description", "")),
                 "section": str(meta.get("section", "")),
                 "tags": meta.get("tags", []),
                 "license": str(meta.get("license", "")),
                 "updated": str(meta.get("updated", "")),
+                "source": str(meta.get("source", "")),
                 "path": path.relative_to(ROOT).as_posix(),
             }
         )
@@ -91,17 +105,18 @@ def render(entries: list[dict]) -> str:
         group = [e for e in entries if e["section"] == section]
         if not group:
             continue
-        group.sort(key=lambda e: e["name"])
+        # Same order as the numbered files in the prompts library, so the two indexes read alike.
+        group.sort(key=lambda e: (e["source"], e["name"]))
         out.append(f"### {section}")
         out.append("")
         out.append(f"*{SECTION_BLURB.get(section, '')}*")
         out.append("")
-        out.append("| Skill | What it does | Tags |")
+        out.append("| Skill | Use it when | Tags |")
         out.append("| --- | --- | --- |")
         for entry in group:
-            trigger = entry["description"].split(" Covers ")[0]
             tags = " ".join(f"`{tag}`" for tag in entry["tags"])
-            out.append(f"| [`{entry['name']}`]({entry['path']}) | {trigger} | {tags} |")
+            label = f"[**{entry['title'] or entry['name']}**]({entry['path']})<br>`{entry['name']}`"
+            out.append(f"| {label} | {entry['summary']} | {tags} |")
         out.append("")
     return "\n".join(out).rstrip() + "\n"
 
@@ -135,7 +150,7 @@ def main() -> int:
     INDEX.parent.mkdir(parents=True, exist_ok=True)
     INDEX.write_text(
         json.dumps(
-            {"generated_on": date.today().isoformat(), "count": len(entries), "sections": sections, "skills": entries},
+            {"generated_on": max((e["updated"] for e in entries), default=""), "count": len(entries), "sections": sections, "skills": entries},
             indent=2,
         )
         + "\n",

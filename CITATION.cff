@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: If you use or adapt this work, please cite it as below.
+type: software
+title: "Construction agent skills"
+abstract: "28 installable agent skills for construction: estimating, architecture, rendering, engineering, scheduling, site, safety, commercial and BD. Claude Code plugin, plain SKILL.md, CC BY 4.0."
+authors:
+  - name: Constructelligence
+    website: https://constructelligence.co
+repository-code: https://github.com/constructelligence-lab/construction-agent-skills
+url: https://constructelligence.co
+license: CC-BY-4.0
+date-released: 2026-09-24
+keywords:
+  - "construction"
+  - "AEC"
+  - "agent skills"
+  - "Claude Code"
+  - "estimating"
+  - "architecture"
+  - "BIM"
