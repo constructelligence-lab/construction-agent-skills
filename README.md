@@ -10,6 +10,13 @@
 
 <p align="center"><img src="docs/how-skills-work.svg" alt="How a skill is selected and used" width="100%"></p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg">
+    <img src="assets/skills-light.svg" alt="28 agent skills across 11 sections, with estimating and takeoff and architecture and design the largest" width="100%">
+  </picture>
+</p>
+
 ## Install
 
 **Claude Code — as a plugin** (recommended: updates come with a pull):
